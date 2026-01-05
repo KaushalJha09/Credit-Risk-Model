@@ -1,0 +1,25 @@
+variable,type,description
+cust_id,string,"Unique customer identifier, primary key in customer file"
+app_id,string,"Application identifier, join key to outcomes"
+application_date,date,Date of application record
+age,int,Age in years
+gender,category,M/F/O
+city_tier,int,1/2/3 tier classification
+residence_type,category,Owned/Rented/Family
+income_monthly,int,Declared monthly income in INR
+employment_type,category,Salaried/Self-employed
+loan_amount_requested,int,Loan amount asked by customer
+channel,category,Origination channel (Online/Partner/Branch/Referral)
+device_score,float,Device trust/fraud score between 0-1
+bureau_score,int/NA,CRIF-like bureau score (NA for NTC customers)
+bureau_vintage_months,int/NA,Months since first tradeline in bureau (NA for NTC)
+total_tradelines,int,Number of tradelines present in bureau data (0 for many NTC)
+active_tradelines,int,Number of open tradelines
+total_sanctioned,int,Sum of sanctioned amounts across tradelines
+max_dpd,int,Maximum DPD observed across tradelines in last 12 months
+dpd_months,int,Total count of months with DPD>0 across tradelines in last 12 months
+written_off_flag,binary,1 if any tradeline written off for this customer
+target_bad,binary,"Primary target: 1 if 60+ DPD by MOB6, else 0"
+mob2_bad,binary,30+ DPD at MOB2
+mob3_bad,binary,30+ DPD at MOB3
+mob6_bad,binary,30+ DPD at MOB6
