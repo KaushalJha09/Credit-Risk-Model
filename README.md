@@ -1,4 +1,4 @@
-# 🏥 SaveIN Credit Risk Model
+# 🏥 Credit Risk Model
 ### Early Delinquency Prediction & Intelligent Underwriting Strategy
 
 ## 📋 Table of Contents
