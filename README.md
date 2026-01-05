@@ -2,22 +2,15 @@
 ### Early Delinquency Prediction & Intelligent Underwriting Strategy
 
 ## 📋 Table of Contents
-- [Overview](#-overview)
-- [Problem Statement](#-problem-statement)
-- [Key Highlights](#-key-highlights)
-- [Dataset](#-dataset)
-- [Methodology](#-methodology)
-- [Model Performance](#-model-performance)
-- [Critical Findings](#-critical-findings)
-- [Underwriting Strategy](#-underwriting-strategy)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Results](#-results)
-- [Future Enhancements](#-future-enhancements)
-- [Contributing](#-contributing)
-- [License](#-license)
-
+- [Overview]
+- [Problem Statement]
+- [Key Highlights]
+- [Dataset]
+- [Methodology]
+- [Model Performance]
+- [Critical Findings]
+- [Underwriting Strategy]
+- [Results]
 ---
 
 ## 🎯 Overview
